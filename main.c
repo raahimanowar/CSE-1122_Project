@@ -52,8 +52,6 @@ void displayScore(char username[]) {
     printf("Game 3: %d Points\n", player.game3_score);
 }
 
-// Quiz Game by Md Raahim Anowar-C243009
-
 struct Question {
     char question[200];
     char options[4][50];  
@@ -145,8 +143,6 @@ void launchGame(char username[], int gameChoice) {
             break;
     }
 }
-
-//Menu function by Afif-C243017
 
 int main() {
     char username[50];
